@@ -1,0 +1,1140 @@
+{
+  "actualizado": "2026-10-01",
+  "nota": "Proyectos de EJEMPLO para mostrar el sitio. Reemplázalos por los tuyos: cada proyecto necesita id (sin espacios ni tildes), nombre, ciudad, sector, coordenadas [latitud, longitud], tipo (casa o departamento), etapa (planos, construccion o inmediata), entrega (AAAA-MM), avance (0-100), modelos con precio y unidades disponibles, y estilo para la maqueta 3D. Si tienes fotos reales, ponlas en fotos: [\"fotos/mi-proyecto-1.webp\", ...] y se usarán en lugar de los renders.",
+  "proyectos": [
+    {
+      "id": "nido-calderon",
+      "nombre": "Nido Calderón",
+      "ciudad": "Quito",
+      "sector": "Calderón, norte de Quito",
+      "coordenadas": [
+        -0.0985,
+        -78.4215
+      ],
+      "tipo": "casa",
+      "etapa": "inmediata",
+      "entrega": "2026-10",
+      "avance": 100,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas adosadas de dos pisos en conjunto cerrado, a cinco minutos de la Panamericana Norte. Pensadas para la primera vivienda: tres dormitorios, patio posterior y parqueadero propio.",
+      "reserva": 500,
+      "entradaCuotasMeses": 0,
+      "alicuota": 28,
+      "amenidades": [
+        "Conjunto cerrado",
+        "Guardianía 24/7",
+        "Juegos infantiles",
+        "Cancha de uso múltiple",
+        "BBQ comunal"
+      ],
+      "cercania": [
+        {
+          "lugar": "Panamericana Norte",
+          "min": 5
+        },
+        {
+          "lugar": "Escuelas y colegios",
+          "min": 6
+        },
+        {
+          "lugar": "Centro de salud",
+          "min": 8
+        },
+        {
+          "lugar": "Supermercado",
+          "min": 7
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Gorrión",
+          "m2": 72,
+          "habitaciones": 2,
+          "banos": 1.5,
+          "parqueaderos": 1,
+          "patio": 14,
+          "precio": 62900,
+          "disponibles": 3
+        },
+        {
+          "nombre": "Colibrí",
+          "m2": 84,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 1,
+          "patio": 18,
+          "precio": 69900,
+          "disponibles": 5
+        }
+      ],
+      "estilo": {
+        "forma": "adosadas",
+        "pisos": 2,
+        "techo": "dosAguas",
+        "pared": "#E6DED2",
+        "acento": "#9C6B48",
+        "techoColor": "#7A4A3A",
+        "paisaje": "sierra",
+        "piscina": false,
+        "hora": 10.5
+      },
+      "destacado": false
+    },
+    {
+      "id": "torre-quitumbe",
+      "nombre": "Torre Quitumbe Verde",
+      "ciudad": "Quito",
+      "sector": "Quitumbe, sur de Quito",
+      "coordenadas": [
+        -0.2905,
+        -78.545
+      ],
+      "tipo": "departamento",
+      "etapa": "construccion",
+      "entrega": "2027-08",
+      "avance": 55,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Departamentos con balcón junto al parque lineal y a la terminal Quitumbe. Terraza comunal con vista al Atacazo y estación de bicicletas.",
+      "reserva": 800,
+      "entradaCuotasMeses": 18,
+      "alicuota": 42,
+      "amenidades": [
+        "Terraza mirador",
+        "Gimnasio",
+        "Coworking",
+        "Bicicletero",
+        "Ascensor",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Terminal Quitumbe y Metro",
+          "min": 6
+        },
+        {
+          "lugar": "Centro comercial",
+          "min": 5
+        },
+        {
+          "lugar": "Parque Las Cuadras",
+          "min": 9
+        },
+        {
+          "lugar": "Hospital del Sur",
+          "min": 12
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Suite Atacazo",
+          "m2": 48,
+          "habitaciones": 1,
+          "banos": 1,
+          "parqueaderos": 1,
+          "patio": 0,
+          "precio": 64500,
+          "disponibles": 4
+        },
+        {
+          "nombre": "Duo",
+          "m2": 64,
+          "habitaciones": 2,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 0,
+          "precio": 71400,
+          "disponibles": 9
+        },
+        {
+          "nombre": "Familiar",
+          "m2": 78,
+          "habitaciones": 3,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 0,
+          "precio": 79900,
+          "disponibles": 6
+        }
+      ],
+      "estilo": {
+        "forma": "torre",
+        "pisos": 9,
+        "techo": "plano",
+        "pared": "#DCE0DC",
+        "acento": "#3F6B5A",
+        "techoColor": "#5A615E",
+        "paisaje": "sierra",
+        "piscina": false,
+        "hora": 16.3
+      },
+      "destacado": false
+    },
+    {
+      "id": "mitad-verde",
+      "nombre": "Mitad Verde",
+      "ciudad": "Quito",
+      "sector": "Pomasqui, a minutos de la Mitad del Mundo",
+      "coordenadas": [
+        -0.051,
+        -78.456
+      ],
+      "tipo": "casa",
+      "etapa": "planos",
+      "entrega": "2028-02",
+      "avance": 8,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas de dos pisos con jardín frontal en el valle soleado de Pomasqui. Precio de preventa: reservas con USD 500 y entrada en 24 cuotas.",
+      "reserva": 500,
+      "entradaCuotasMeses": 24,
+      "alicuota": 35,
+      "amenidades": [
+        "Casa comunal",
+        "Sendero",
+        "Huertos familiares",
+        "Juegos infantiles",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Av. Manuel Córdova Galarza",
+          "min": 4
+        },
+        {
+          "lugar": "Ciudad Mitad del Mundo",
+          "min": 8
+        },
+        {
+          "lugar": "Colegios",
+          "min": 6
+        },
+        {
+          "lugar": "Centro comercial",
+          "min": 10
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Equinoccio",
+          "m2": 88,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 1,
+          "patio": 20,
+          "precio": 78900,
+          "disponibles": 12
+        },
+        {
+          "nombre": "Solsticio",
+          "m2": 96,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 26,
+          "precio": 85500,
+          "disponibles": 8
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 2,
+        "techo": "inclinado",
+        "pared": "#EFE8DA",
+        "acento": "#B07A4F",
+        "techoColor": "#4E5652",
+        "paisaje": "valle",
+        "piscina": false,
+        "hora": 9.2
+      },
+      "destacado": false
+    },
+    {
+      "id": "jardines-del-ilalo",
+      "nombre": "Jardines del Ilaló",
+      "ciudad": "Quito",
+      "sector": "Conocoto, Valle de Los Chillos",
+      "coordenadas": [
+        -0.293,
+        -78.48
+      ],
+      "tipo": "casa",
+      "etapa": "construccion",
+      "entrega": "2027-05",
+      "avance": 46,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas modernas de dos pisos con patio y vista al Ilaló, en el clima templado del valle. Entran en el crédito Miti-Miti VIP: 5 % de entrada pagado en cuotas mientras se construye.",
+      "reserva": 1000,
+      "entradaCuotasMeses": 18,
+      "alicuota": 45,
+      "amenidades": [
+        "Casa club",
+        "Piscina temperada",
+        "Gimnasio",
+        "Juegos infantiles",
+        "Áreas verdes",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Autopista General Rumiñahui",
+          "min": 4
+        },
+        {
+          "lugar": "Centro comercial",
+          "min": 7
+        },
+        {
+          "lugar": "Colegios del valle",
+          "min": 5
+        },
+        {
+          "lugar": "Hospital",
+          "min": 12
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Arrayán",
+          "m2": 98,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 24,
+          "precio": 89900,
+          "disponibles": 6
+        },
+        {
+          "nombre": "Pumamaqui",
+          "m2": 112,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 30,
+          "precio": 99500,
+          "disponibles": 4
+        },
+        {
+          "nombre": "Nogal",
+          "m2": 124,
+          "habitaciones": 4,
+          "banos": 3,
+          "parqueaderos": 2,
+          "patio": 36,
+          "precio": 108000,
+          "disponibles": 2
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 2,
+        "techo": "plano",
+        "pared": "#EDEAE3",
+        "acento": "#8A5A3B",
+        "techoColor": "#3E4441",
+        "paisaje": "valle",
+        "piscina": true,
+        "hora": 16.8
+      },
+      "destacado": true
+    },
+    {
+      "id": "arrayanes-tumbaco",
+      "nombre": "Arrayanes de Tumbaco",
+      "ciudad": "Quito",
+      "sector": "Tumbaco, cerca de la Ruta Viva",
+      "coordenadas": [
+        -0.213,
+        -78.402
+      ],
+      "tipo": "casa",
+      "etapa": "planos",
+      "entrega": "2028-04",
+      "avance": 12,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas amplias de dos pisos con estudio y jardín privado, en conjunto de 24 unidades con árboles nativos. Acceso rápido a la Ruta Viva y al aeropuerto.",
+      "reserva": 2000,
+      "entradaCuotasMeses": 18,
+      "alicuota": 60,
+      "amenidades": [
+        "Casa club",
+        "Piscina",
+        "Sendero de árboles nativos",
+        "Pet park",
+        "Coworking",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Ruta Viva",
+          "min": 5
+        },
+        {
+          "lugar": "Chaquiñán (ciclovía)",
+          "min": 4
+        },
+        {
+          "lugar": "Colegios bilingües",
+          "min": 8
+        },
+        {
+          "lugar": "Aeropuerto Mariscal Sucre",
+          "min": 25
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Guaba",
+          "m2": 128,
+          "habitaciones": 3,
+          "banos": 3,
+          "parqueaderos": 2,
+          "patio": 40,
+          "precio": 118000,
+          "disponibles": 7
+        },
+        {
+          "nombre": "Cedro",
+          "m2": 146,
+          "habitaciones": 4,
+          "banos": 3.5,
+          "parqueaderos": 2,
+          "patio": 52,
+          "precio": 134500,
+          "disponibles": 5
+        },
+        {
+          "nombre": "Aliso",
+          "m2": 165,
+          "habitaciones": 4,
+          "banos": 4,
+          "parqueaderos": 3,
+          "patio": 60,
+          "precio": 149000,
+          "disponibles": 3
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 2,
+        "techo": "plano",
+        "pared": "#F1EEE8",
+        "acento": "#6E4A33",
+        "techoColor": "#2F3533",
+        "paisaje": "valle",
+        "piscina": true,
+        "hora": 18.55
+      },
+      "destacado": true
+    },
+    {
+      "id": "capuli-sangolqui",
+      "nombre": "Capulí",
+      "ciudad": "Sangolquí",
+      "sector": "San Rafael, Rumiñahui",
+      "coordenadas": [
+        -0.317,
+        -78.447
+      ],
+      "tipo": "casa",
+      "etapa": "inmediata",
+      "entrega": "2026-10",
+      "avance": 100,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas terminadas listas para escriturar, con acabados de piso flotante y cocina abierta. Últimas unidades del conjunto.",
+      "reserva": 1000,
+      "entradaCuotasMeses": 0,
+      "alicuota": 40,
+      "amenidades": [
+        "Conjunto cerrado",
+        "Casa comunal",
+        "Juegos infantiles",
+        "Áreas verdes",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Autopista General Rumiñahui",
+          "min": 3
+        },
+        {
+          "lugar": "Centro comercial San Luis",
+          "min": 6
+        },
+        {
+          "lugar": "Escuelas",
+          "min": 4
+        },
+        {
+          "lugar": "Hospital",
+          "min": 10
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Capulí 3D",
+          "m2": 104,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 22,
+          "precio": 96500,
+          "disponibles": 2
+        },
+        {
+          "nombre": "Capulí 3D+E",
+          "m2": 118,
+          "habitaciones": 3,
+          "banos": 3,
+          "parqueaderos": 2,
+          "patio": 28,
+          "precio": 109900,
+          "disponibles": 1
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 2,
+        "techo": "dosAguas",
+        "pared": "#E9E2D5",
+        "acento": "#7C4F38",
+        "techoColor": "#8E4A36",
+        "paisaje": "sierra",
+        "piscina": false,
+        "hora": 12.0
+      },
+      "destacado": false
+    },
+    {
+      "id": "puerto-brisa",
+      "nombre": "Puerto Brisa",
+      "ciudad": "Guayaquil",
+      "sector": "Vía a la Costa, km 14",
+      "coordenadas": [
+        -2.195,
+        -80.025
+      ],
+      "tipo": "casa",
+      "etapa": "construccion",
+      "entrega": "2027-03",
+      "avance": 62,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas frescas de uno y dos pisos con ventilación cruzada, en urbanización con lago y club. Entran en crédito VIS con tasa de 4,99 %.",
+      "reserva": 800,
+      "entradaCuotasMeses": 12,
+      "alicuota": 38,
+      "amenidades": [
+        "Lago",
+        "Club con piscina",
+        "Canchas",
+        "Ciclovía",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Vía a la Costa",
+          "min": 3
+        },
+        {
+          "lugar": "Centro comercial",
+          "min": 10
+        },
+        {
+          "lugar": "Colegios",
+          "min": 8
+        },
+        {
+          "lugar": "Centro de Guayaquil",
+          "min": 30
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Brisa",
+          "m2": 70,
+          "habitaciones": 2,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 20,
+          "precio": 72000,
+          "disponibles": 10
+        },
+        {
+          "nombre": "Marea",
+          "m2": 92,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 1,
+          "patio": 24,
+          "precio": 84900,
+          "disponibles": 7
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 1,
+        "techo": "plano",
+        "pared": "#F4F1EA",
+        "acento": "#3A7D8C",
+        "techoColor": "#D9D3C7",
+        "paisaje": "costa",
+        "piscina": false,
+        "hora": 16.9
+      },
+      "destacado": false
+    },
+    {
+      "id": "ceibo-la-aurora",
+      "nombre": "Ceibo La Aurora",
+      "ciudad": "Guayaquil",
+      "sector": "La Aurora, Daule",
+      "coordenadas": [
+        -2.067,
+        -79.896
+      ],
+      "tipo": "casa",
+      "etapa": "inmediata",
+      "entrega": "2026-11",
+      "avance": 96,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas de dos pisos con patio y terraza en urbanización consolidada de La Aurora, con colegios y comercio a pocos minutos.",
+      "reserva": 1500,
+      "entradaCuotasMeses": 6,
+      "alicuota": 55,
+      "amenidades": [
+        "Club con piscina",
+        "Gimnasio",
+        "Canchas de pádel",
+        "Áreas verdes",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Av. León Febres Cordero",
+          "min": 4
+        },
+        {
+          "lugar": "Centro comercial",
+          "min": 6
+        },
+        {
+          "lugar": "Colegios",
+          "min": 5
+        },
+        {
+          "lugar": "Puente a Samborondón",
+          "min": 15
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Ceibo",
+          "m2": 108,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 24,
+          "precio": 99900,
+          "disponibles": 4
+        },
+        {
+          "nombre": "Ceibo Plus",
+          "m2": 132,
+          "habitaciones": 4,
+          "banos": 3.5,
+          "parqueaderos": 2,
+          "patio": 30,
+          "precio": 124000,
+          "disponibles": 3
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 2,
+        "techo": "plano",
+        "pared": "#F3EFE6",
+        "acento": "#A0623C",
+        "techoColor": "#CFC7B8",
+        "paisaje": "costa",
+        "piscina": true,
+        "hora": 11.0
+      },
+      "destacado": true
+    },
+    {
+      "id": "torre-guayacan",
+      "nombre": "Torre Guayacán",
+      "ciudad": "Guayaquil",
+      "sector": "Samborondón, km 2,5",
+      "coordenadas": [
+        -2.14,
+        -79.87
+      ],
+      "tipo": "departamento",
+      "etapa": "planos",
+      "entrega": "2028-06",
+      "avance": 5,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Departamentos con balcón hacia el río Babahoyo, a pasos de plazas comerciales. Piscina en la terraza y lobby con conserjería.",
+      "reserva": 3000,
+      "entradaCuotasMeses": 20,
+      "alicuota": 85,
+      "amenidades": [
+        "Piscina en terraza",
+        "Gimnasio",
+        "Coworking",
+        "Lobby con conserjería",
+        "Ascensores",
+        "Generador"
+      ],
+      "cercania": [
+        {
+          "lugar": "Plazas comerciales",
+          "min": 3
+        },
+        {
+          "lugar": "Colegios",
+          "min": 7
+        },
+        {
+          "lugar": "Hospital",
+          "min": 10
+        },
+        {
+          "lugar": "Puente de la Unidad Nacional",
+          "min": 8
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Ribera",
+          "m2": 72,
+          "habitaciones": 2,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 0,
+          "precio": 128000,
+          "disponibles": 11
+        },
+        {
+          "nombre": "Ribera Plus",
+          "m2": 88,
+          "habitaciones": 2,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 0,
+          "precio": 139500,
+          "disponibles": 8
+        },
+        {
+          "nombre": "Familia",
+          "m2": 98,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 0,
+          "precio": 150000,
+          "disponibles": 6
+        }
+      ],
+      "estilo": {
+        "forma": "torre",
+        "pisos": 12,
+        "techo": "plano",
+        "pared": "#EEF0EE",
+        "acento": "#2F5D73",
+        "techoColor": "#6B7270",
+        "paisaje": "costa",
+        "piscina": true,
+        "hora": 18.5
+      },
+      "destacado": false
+    },
+    {
+      "id": "mirador-challuabamba",
+      "nombre": "Mirador Challuabamba",
+      "ciudad": "Cuenca",
+      "sector": "Challuabamba, oriente de Cuenca",
+      "coordenadas": [
+        -2.88,
+        -78.935
+      ],
+      "tipo": "casa",
+      "etapa": "construccion",
+      "entrega": "2027-09",
+      "avance": 38,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas de ladrillo visto y madera con vista al valle de Challuabamba, a 15 minutos del centro histórico. Calefacción de piso en dormitorios.",
+      "reserva": 1500,
+      "entradaCuotasMeses": 18,
+      "alicuota": 50,
+      "amenidades": [
+        "Casa club",
+        "Sendero",
+        "Juegos infantiles",
+        "Áreas verdes",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Autopista Cuenca-Azogues",
+          "min": 5
+        },
+        {
+          "lugar": "Centro histórico",
+          "min": 15
+        },
+        {
+          "lugar": "Colegios",
+          "min": 8
+        },
+        {
+          "lugar": "Supermercado",
+          "min": 6
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Cañari",
+          "m2": 116,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 32,
+          "precio": 105000,
+          "disponibles": 5
+        },
+        {
+          "nombre": "Tomebamba",
+          "m2": 138,
+          "habitaciones": 4,
+          "banos": 3.5,
+          "parqueaderos": 2,
+          "patio": 44,
+          "precio": 139000,
+          "disponibles": 4
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 2,
+        "techo": "dosAguas",
+        "pared": "#B8664A",
+        "acento": "#6B4630",
+        "techoColor": "#5B3227",
+        "paisaje": "austro",
+        "piscina": false,
+        "hora": 15.5
+      },
+      "destacado": true
+    },
+    {
+      "id": "eucalipto-ricaurte",
+      "nombre": "Eucalipto",
+      "ciudad": "Cuenca",
+      "sector": "Ricaurte, norte de Cuenca",
+      "coordenadas": [
+        -2.853,
+        -78.962
+      ],
+      "tipo": "casa",
+      "etapa": "inmediata",
+      "entrega": "2026-10",
+      "avance": 100,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas pareadas de dos pisos listas para entregar. Califican a Credicasa del BIESS al 2,99 % y a Miti-Miti VIS.",
+      "reserva": 500,
+      "entradaCuotasMeses": 0,
+      "alicuota": 25,
+      "amenidades": [
+        "Conjunto cerrado",
+        "Juegos infantiles",
+        "Área de BBQ",
+        "Guardianía"
+      ],
+      "cercania": [
+        {
+          "lugar": "Av. de las Américas",
+          "min": 8
+        },
+        {
+          "lugar": "Escuelas",
+          "min": 4
+        },
+        {
+          "lugar": "Centro de salud",
+          "min": 6
+        },
+        {
+          "lugar": "Mercado",
+          "min": 5
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Pareada",
+          "m2": 76,
+          "habitaciones": 3,
+          "banos": 1.5,
+          "parqueaderos": 1,
+          "patio": 16,
+          "precio": 67900,
+          "disponibles": 4
+        },
+        {
+          "nombre": "Esquinera",
+          "m2": 86,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 1,
+          "patio": 28,
+          "precio": 79500,
+          "disponibles": 2
+        }
+      ],
+      "estilo": {
+        "forma": "adosadas",
+        "pisos": 2,
+        "techo": "dosAguas",
+        "pared": "#EDE4D6",
+        "acento": "#9E5C3F",
+        "techoColor": "#8C4433",
+        "paisaje": "austro",
+        "piscina": false,
+        "hora": 9.8
+      },
+      "destacado": false
+    },
+    {
+      "id": "mar-de-manta",
+      "nombre": "Mar de Manta",
+      "ciudad": "Manta",
+      "sector": "Barbasquillo",
+      "coordenadas": [
+        -0.945,
+        -80.745
+      ],
+      "tipo": "departamento",
+      "etapa": "construccion",
+      "entrega": "2027-12",
+      "avance": 30,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Departamentos frente al Pacífico con balcón y vista al mar, a pasos de la playa. Para vivir o para renta vacacional.",
+      "reserva": 2000,
+      "entradaCuotasMeses": 18,
+      "alicuota": 65,
+      "amenidades": [
+        "Piscina infinita",
+        "Acceso a la playa",
+        "Gimnasio",
+        "Área de BBQ",
+        "Ascensor",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Playa Barbasquillo",
+          "min": 2
+        },
+        {
+          "lugar": "Centro comercial",
+          "min": 8
+        },
+        {
+          "lugar": "Aeropuerto de Manta",
+          "min": 15
+        },
+        {
+          "lugar": "Hospital",
+          "min": 12
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Ola",
+          "m2": 62,
+          "habitaciones": 2,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 0,
+          "precio": 88000,
+          "disponibles": 8
+        },
+        {
+          "nombre": "Horizonte",
+          "m2": 84,
+          "habitaciones": 3,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 0,
+          "precio": 116000,
+          "disponibles": 5
+        }
+      ],
+      "estilo": {
+        "forma": "torre",
+        "pisos": 8,
+        "techo": "plano",
+        "pared": "#F5F3EE",
+        "acento": "#2E7F8F",
+        "techoColor": "#BDB6A8",
+        "paisaje": "costa",
+        "piscina": true,
+        "hora": 17.0
+      },
+      "destacado": false
+    },
+    {
+      "id": "vista-tungurahua",
+      "nombre": "Vista Tungurahua",
+      "ciudad": "Ambato",
+      "sector": "Huachi, sur de Ambato",
+      "coordenadas": [
+        -1.28,
+        -78.63
+      ],
+      "tipo": "casa",
+      "etapa": "planos",
+      "entrega": "2028-01",
+      "avance": 6,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas de dos pisos con vista al volcán Tungurahua, en el clima seco y soleado de Huachi. Preventa con entrada en 24 cuotas.",
+      "reserva": 500,
+      "entradaCuotasMeses": 24,
+      "alicuota": 30,
+      "amenidades": [
+        "Casa comunal",
+        "Huertos de frutales",
+        "Juegos infantiles",
+        "Guardianía 24/7"
+      ],
+      "cercania": [
+        {
+          "lugar": "Av. Atahualpa",
+          "min": 5
+        },
+        {
+          "lugar": "Centro comercial",
+          "min": 9
+        },
+        {
+          "lugar": "Universidad",
+          "min": 10
+        },
+        {
+          "lugar": "Escuelas",
+          "min": 5
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Huachi",
+          "m2": 82,
+          "habitaciones": 3,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 20,
+          "precio": 69900,
+          "disponibles": 10
+        },
+        {
+          "nombre": "Ficoa",
+          "m2": 94,
+          "habitaciones": 3,
+          "banos": 2.5,
+          "parqueaderos": 2,
+          "patio": 26,
+          "precio": 84000,
+          "disponibles": 6
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 2,
+        "techo": "inclinado",
+        "pared": "#E8E1D4",
+        "acento": "#7B5B43",
+        "techoColor": "#3F4643",
+        "paisaje": "sierra",
+        "piscina": false,
+        "hora": 7.4
+      },
+      "destacado": false
+    },
+    {
+      "id": "guadual-santo-domingo",
+      "nombre": "Guadual",
+      "ciudad": "Santo Domingo",
+      "sector": "Vía a Quevedo, km 4",
+      "coordenadas": [
+        -0.27,
+        -79.19
+      ],
+      "tipo": "casa",
+      "etapa": "inmediata",
+      "entrega": "2026-10",
+      "avance": 100,
+      "constructora": "Constructora de ejemplo",
+      "descripcion": "Casas de una planta con techo alto y patio verde, listas para entregar. Precio más accesible del portafolio y califican a Credicasa.",
+      "reserva": 500,
+      "entradaCuotasMeses": 0,
+      "alicuota": 20,
+      "amenidades": [
+        "Conjunto cerrado",
+        "Cancha",
+        "Juegos infantiles",
+        "Guardianía"
+      ],
+      "cercania": [
+        {
+          "lugar": "Vía a Quevedo",
+          "min": 3
+        },
+        {
+          "lugar": "Centro de Santo Domingo",
+          "min": 12
+        },
+        {
+          "lugar": "Escuelas",
+          "min": 5
+        },
+        {
+          "lugar": "Hospital",
+          "min": 10
+        }
+      ],
+      "modelos": [
+        {
+          "nombre": "Guadúa",
+          "m2": 68,
+          "habitaciones": 2,
+          "banos": 1,
+          "parqueaderos": 1,
+          "patio": 30,
+          "precio": 60500,
+          "disponibles": 6
+        },
+        {
+          "nombre": "Bambú",
+          "m2": 80,
+          "habitaciones": 3,
+          "banos": 2,
+          "parqueaderos": 1,
+          "patio": 36,
+          "precio": 69800,
+          "disponibles": 4
+        }
+      ],
+      "estilo": {
+        "forma": "casa",
+        "pisos": 1,
+        "techo": "dosAguas",
+        "pared": "#EEE9DD",
+        "acento": "#5F7F4A",
+        "techoColor": "#6E3F33",
+        "paisaje": "costa",
+        "piscina": false,
+        "hora": 13.5
+      },
+      "destacado": false
+    }
+  ]
+}
