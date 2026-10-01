@@ -1,0 +1,42 @@
+{
+  "marca": "Llave",
+  "eslogan": "Casas y departamentos en Ecuador",
+  "dominio": "https://thebesttech810-art.github.io/portafolio-inmobiliario/",
+  "whatsapp": "593999999999",
+  "whatsappVisible": "+593 99 999 9999",
+  "correo": "ventas@tu-dominio.ec",
+  "salaDeVentas": "Sala de ventas en Quito (escribe aquí tu dirección)",
+  "horario": "Lunes a sábado de 9:00 a 18:00 · Domingos con cita",
+  "horasVisita": [
+    "10:00",
+    "12:00",
+    "15:00",
+    "17:00"
+  ],
+  "leadsEndpoint": "",
+  "pedirContactoAntesDelResultado": true,
+  "modoDemo": true,
+  "prefijoCodigo": "CASA",
+  "constructoraAnios": 12,
+  "familiasEntregadas": 1840,
+  "testimonios": [
+    {
+      "nombre": "Daniela y Andrés",
+      "ciudad": "Conocoto",
+      "texto": "Pensábamos que sin 20 % de entrada no había forma. Con el Miti-Miti pusimos el 5 % en cuotas mientras construían y hoy pagamos menos que el arriendo.",
+      "programa": "Miti-Miti VIP"
+    },
+    {
+      "nombre": "Jorge P.",
+      "ciudad": "Calderón",
+      "texto": "Hice la precalificación un domingo en la noche y el lunes ya me llamaron con el proyecto que me alcanzaba. El Credicasa del BIESS me salió en USD 290 al mes.",
+      "programa": "Credicasa BIESS"
+    },
+    {
+      "nombre": "María Fernanda T.",
+      "ciudad": "Vía a la Costa",
+      "texto": "Trabajo con RUC y en otros lados me cerraban la puerta. Aquí me dijeron desde el inicio qué papeles preparar y con qué banco aplicar.",
+      "programa": "Banca privada"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "portafolio-inmobiliario",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portafolio de proyectos de vivienda en Ecuador con precalificación hipotecaria y captación de clientes.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test pruebas/*.test.mjs",
+    "servir": "python3 -m http.server 8080 --directory sitio",
+    "paginas": "node herramientas/generar-paginas.mjs",
+    "vendor": "node herramientas/construir-three.mjs",
+    "artefacto": "node herramientas/artefacto.mjs"
+  }
+}

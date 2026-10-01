@@ -1,0 +1,28 @@
+# Copia este archivo como wrangler.toml (en esta misma carpeta) y publica con:
+#   npx wrangler deploy
+# Wrangler empaqueta el Worker junto con ../sitio/js/finanzas.js y ../sitio/datos/*.json,
+# así el servidor calcula exactamente igual que el sitio. Si cambias tasas o proyectos,
+# vuelve a publicar el Worker.
+name = "precalificador-leads"
+main = "leads-worker.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Dominios desde los que se acepta el formulario (separados por coma).
+ORIGENES = "https://thebesttech810-art.github.io"
+# Correo(s) del equipo de ventas que reciben cada cliente (opcional, separados por coma).
+AVISO_CORREO = "ventas@tu-dominio.ec"
+# AVISO_DESDE = "Precalificador <avisos@tu-dominio.ec>"   # dominio verificado en Resend
+# Número(s) de WhatsApp de los vendedores, con código de país y sin "+" (opcional).
+# WHATSAPP_AVISO_A = "593999999999"
+# WHATSAPP_PLANTILLA = "nuevo_cliente"
+# Si usas el panel del agente de WhatsApp, el id de tu organización en Supabase:
+# ORGANIZATION_ID = "00000000-0000-0000-0000-000000000000"
+
+# Secretos (NUNCA en este archivo). Se cargan con:
+#   npx wrangler secret put SUPABASE_URL
+#   npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+#   npx wrangler secret put RESEND_API_KEY        (opcional, aviso por correo)
+#   npx wrangler secret put TURNSTILE_SECRET      (opcional, antispam)
+#   npx wrangler secret put WHATSAPP_TOKEN        (opcional, aviso por WhatsApp)
+#   npx wrangler secret put WHATSAPP_PHONE_ID     (opcional)

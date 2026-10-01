@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thebesttech810-art.github.io/portafolio-inmobiliario/sitemap.xml

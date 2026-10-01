@@ -1,0 +1,12 @@
+{
+  "name": "Llave · Casas y departamentos en Ecuador",
+  "short_name": "Llave",
+  "description": "Proyectos de vivienda desde USD 60.000 y precalificación hipotecaria en 90 segundos.",
+  "lang": "es-EC",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EDF1EE",
+  "theme_color": "#14211C",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
